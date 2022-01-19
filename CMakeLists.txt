@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.21)
+project(CourseraTutorials C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(main main.c)
+add_executable(circle "Week 1/circle.c")
+add_executable(marathon "Week 2/marathon.c")
+add_executable(fahrenheit "Week 1/fahrenheit.c")
+add_executable(marathonYards "Week 1/marathonYards.c")
+add_executable(poem "Week 1/poem.c")
+add_executable(sizeOfOperator "Week 1/sizeOfOperator.c")
+add_executable(intType "Week 1/intType.c")
+add_executable(volumeOfSphere "Week 2/VolumeOfSphere.c")
+add_executable(sineFunction "Week 2/sineFunction.c")
+add_executable(logicalOperators "Week 3/logicalOperators.c")
+add_executable(conditionals "Week 3/conditionals.c")
+add_executable(whileLoops "Week 3/whileLoops.c")
